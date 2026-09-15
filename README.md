@@ -80,7 +80,7 @@ The website serves as a digital identity for the team, showcasing their technica
 | 1 | **Md Mazid Hossain** | `12-232-0028` | DevOps Engineer & IT Executive | [View →](members/mazid.html) |
 | 2 | **Md. Abu Sayed** | `12-232-0029` | Network Engineer | [View →](members/abusayed.html) |
 | 3 | **Md Roich Uddin** | `12-232-0042` | Network Security Engineer | [View →](members/roich.html) |
-| 4 | **Md Lokman Hossain** | `12-232-0043` | Network Support Engineer | [View →](members/lokman.html) |
+| 4 | **Lokman Hossain** | `12-232-0043` | Network Support Engineer | [View →](members/lokman.html) |
 
 ---
 
