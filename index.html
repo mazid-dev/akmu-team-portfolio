@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Team Portfolio — Anwer Khan Modern University Final Year Project. A team of 4 engineers specializing in DevOps, Networking, and Network Security." />
+  <meta name="keywords" content="AKMU, Anwer Khan Modern University, Team Portfolio, DevOps, Networking, Network Security" />
+  <meta name="author" content="AKMU Team" />
+  <meta property="og:title" content="AKMU Team Portfolio" />
+  <meta property="og:description" content="A team of 4 engineers — DevOps, Networking, and Security specialists." />
+  <meta property="og:type" content="website" />
+
+  <title>AKMU Team Portfolio | Networking · Security · DevOps</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">AKMU<span>Team</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="hero-content">
+      <span class="hero-badge">
+        <i class="fas fa-graduation-cap"></i> Final Year Project · Anwer Khan Modern University
+      </span>
+      <h1>
+        We Build <span class="gradient-text">Networks</span><br>
+        & <span class="gradient-text">Cloud Infrastructure</span>
+      </h1>
+      <p class="hero-desc">
+        A team of four passionate engineers specializing in DevOps, Network Engineering,
+        Network Security, and Enterprise Infrastructure — turning complex systems into
+        reliable, secure solutions.
+      </p>
+      <div class="hero-buttons">
+        <a href="#team" class="btn btn-primary">
+          Meet the Team <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer" class="btn btn-outline">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2>Who We Are</h2>
+        <p>
+          We are four final-year Computer Science & Engineering students from
+          Anwer Khan Modern University, each specializing in a distinct area of
+          modern IT infrastructure.
+        </p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card"><h3 class="gradient-text">4+</h3><p>Years Experience</p></div>
+        <div class="stat-card"><h3 class="gradient-text">10+</h3><p>Certifications</p></div>
+        <div class="stat-card"><h3 class="gradient-text">20+</h3><p>Projects Completed</p></div>
+        <div class="stat-card"><h3 class="gradient-text">100%</h3><p>Dedication</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Team</span>
+        <h2>Meet the Engineers</h2>
+        <p>Four specialists. One mission — building secure, scalable, and reliable infrastructure.</p>
+      </div>
+      <div class="team-grid" id="teamGrid"></div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tech Stack</span>
+        <h2>Skills & Tools</h2>
+        <p>The technologies we use daily to design, secure, and automate modern infrastructure.</p>
+      </div>
+      <div class="skills-cloud" id="skillsCloud"></div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2>Featured Projects</h2>
+        <p>Real-world implementations from our academic and professional work.</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container-narrow">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2>Contact Us</h2>
+        <p>Have a project in mind or just want to say hello? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-info">
+        <div class="info-item"><i class="fas fa-envelope"></i><span>team@akmu.edu</span></div>
+        <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Dhaka, Bangladesh</span></div>
+      </div>
+      <form class="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h3 class="gradient-text">AKMU Team Portfolio</h3>
+      <p>© <span id="year"></span> Md Mazid Hossain · Md. Abu Sayed · Md Roich Uddin · Md Lokman Hossain</p>
+      <p class="footer-sub">
+        Anwer Khan Modern University · Built with HTML, CSS & JavaScript · Deployed via GitHub Actions + Netlify
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/team.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/darkmode.js"></script>
+</body>
+</html>
