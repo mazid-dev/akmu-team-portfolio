@@ -16,7 +16,7 @@ function renderTeam() {
   grid.innerHTML = teamData.map(member => `
     <article class="member-card">
       <div class="member-header ${member.color}">
-        <div class="member-avatar">${member.initials}</div>
+        <div class="member-avatar"><img src="${member.photo}" alt="${member.name}" onerror="this.style.display='none'; this.parentElement.textContent='${member.initials}'" /></div>
       </div>
       <div class="member-body">
         <h3 class="member-name">${member.name}</h3>
