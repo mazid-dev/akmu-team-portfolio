@@ -638,3 +638,57 @@ body.dark .navbar.scrolled { background: rgba(15, 23, 42, 0.85); }
   box-shadow: 0 8px 20px rgba(14, 165, 233, 0.15);
 }
 
+
+/* ═══════════════════════════════════════════
+   ENHANCED LOGO
+   ═══════════════════════════════════════════ */
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.logo:hover {
+  transform: translateY(-2px);
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.35);
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.logo:hover .logo-icon {
+  transform: rotate(-8deg) scale(1.05);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.5);
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+.logo-text span {
+  -webkit-text-fill-color: var(--text);
+  color: var(--text);
+  font-weight: 800;
+}
+
