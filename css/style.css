@@ -573,3 +573,68 @@ body.dark .navbar.scrolled { background: rgba(15, 23, 42, 0.85); }
   border-radius: 50%;
   object-fit: cover;
 }
+
+/* ═══════════════════════════════════════════
+   ENHANCED HERO SECTION
+   ═══════════════════════════════════════════ */
+
+/* Bigger, bolder badge */
+.hero-badge {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.12), rgba(139, 92, 246, 0.12));
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 6px 24px rgba(14, 165, 233, 0.18);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-badge i {
+  font-size: 17px;
+}
+
+.hero-desc strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+/* Tech stack chips */
+.hero-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 48px;
+  animation: fadeUp 0.8s ease-out 0.4s both;
+}
+
+.hero-tech-stack span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-soft);
+  transition: var(--transition);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.hero-tech-stack span i {
+  color: var(--primary);
+  font-size: 15px;
+}
+
+.hero-tech-stack span:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  color: var(--text);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.15);
+}
+
