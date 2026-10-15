@@ -7,9 +7,11 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
   issues: write
+  deployments: write
+  statuses: write
 
 jobs:
   build:
